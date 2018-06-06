@@ -12,5 +12,7 @@ const codes = [
 ];
 
 function init() {
-  var element=document
+  var element=document.body;
+  var index=0;
+  element.addEventListener()
 }

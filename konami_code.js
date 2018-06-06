@@ -15,6 +15,18 @@ function init() {
   var element=document.body;
   var index=0;
   element.addEventListener('keydown',function(e){
-    
+    const key = e.key;
+ 
+  if (key === codes[index]) {
+    index++;
+ 
+    if (index === codes.length) {
+      alert("Hurray!");
+ 
+      index = 0;
+    }
+  } else {
+    index = 0;
+  }
   })
 }
